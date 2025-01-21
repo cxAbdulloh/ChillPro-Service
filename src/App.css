@@ -1,0 +1,78 @@
+.callButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 55px;
+  height: 55px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 9px #686868b4;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.callButton:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+
+.callIcon {
+  width: 30px;
+  height: 30px;
+  color: white;
+}
+
+.callMenu {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.callMenu p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.callNumber {
+  display: block;
+  margin-top: 5px;
+  font-size: 16px;
+  color: #2887ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.callNumber:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .callButton {
+    width: 50px;
+    height: 50px;
+  }
+
+  .callIcon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .callMenu {
+    bottom: 80px;
+    padding: 8px 15px;
+  }
+
+  .callNumber {
+    font-size: 14px;
+  }
+}
