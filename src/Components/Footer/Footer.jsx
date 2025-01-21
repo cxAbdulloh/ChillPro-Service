@@ -36,7 +36,7 @@ const Footer = () => {
             <h2>Связаться с нами</h2>
             <ul>
                 <li>+998 (33) 157-17-17</li>
-                <li>Contact@chillpro.com</li>
+                <li>Contact@chillpro.uz</li>
             </ul>
         </div>
       </div>

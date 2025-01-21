@@ -45,7 +45,6 @@ const App = () => {
     <Route path="/contact" element={<ContactPage/>} />
   </Routes>
 
-    
     </>
   )
 }

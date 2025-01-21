@@ -14,18 +14,11 @@ const SectionContainer = () => {
       <div className="sectionContainer">
         <div className="containerTopBottom">
           <div id="containerTop">
-            <div className="left">
-              <img
-                src="https://images.thdstatic.com/productImages/1f582bc2-1fbf-47c6-96d2-31d165a4e8cc/svn/white-whirlpool-front-load-washers-chw9160gw-64_1000.jpg"
-                alt=""
-                className="topImage"
-              />
+          <div className="left">
               <div className="topButton">
+                <img src={assets.conditsoner} alt="" className="topImage" />
                 <ul>
-                  <li className="textTop">Стиральная машина</li>
-                  <p className="ppp">
-                    Мигают индикаторы? <br /> тогда свяжитесь с нами
-                  </p>
+                  <li className="textBottom">Кондиционер</li>
                 </ul>
                 <div className="bbb">
                   <button className="btn"><Link style={{color:"#fff"}} to={"/contact"}>Вызвать мастера</Link></button>
@@ -41,9 +34,6 @@ const SectionContainer = () => {
               <div className="topButton">
                 <ul>
                   <li className="textTop">Холодильник</li>
-                  <p className="ppp">
-                    Шумит? <br /> тогда свяжитесь с нами
-                  </p>
                 </ul>
                 <div className="bbb">
                   <button className="btn"><Link style={{color:"#fff"}} to={"/contact"}>Вызвать мастера</Link></button>
@@ -51,13 +41,14 @@ const SectionContainer = () => {
               </div>
             </div>
             <div className="left">
+              <img
+                src="https://images.thdstatic.com/productImages/1f582bc2-1fbf-47c6-96d2-31d165a4e8cc/svn/white-whirlpool-front-load-washers-chw9160gw-64_1000.jpg"
+                alt=""
+                className="topImage"
+              />
               <div className="topButton">
-                <img src={assets.conditsoner} alt="" className="topImage" />
                 <ul>
-                  <li className="textBottom">Кондиционер</li>
-                  <p className="ppp">
-                    Не охлаждает? <br /> тогда свяжитесь с нами
-                  </p>
+                  <li className="textTop">Стиральная машина</li>
                 </ul>
                 <div className="bbb">
                   <button className="btn"><Link style={{color:"#fff"}} to={"/contact"}>Вызвать мастера</Link></button>
@@ -71,9 +62,6 @@ const SectionContainer = () => {
               <div className="topButton">
                 <ul>
                   <li className="textBottom">Стабилизатор</li>
-                  <p className="ppp">
-                    не работает? <br /> тогда свяжитесь с нами
-                  </p>
                 </ul>
                 <div className="bbb">
                   <button className="btn"><Link style={{color:"#fff"}} to={"/contact"}>Вызвать мастера</Link></button>
@@ -87,9 +75,6 @@ const SectionContainer = () => {
                   <li className="textBottom">
                     Витринные <br /> холодильники
                   </li>
-                  <p className="ppp">
-                    не работает? <br /> тогда свяжитесь с нами
-                  </p>
                 </ul>
                 <div className="bbb">
                   <button className="btn"><Link style={{color:"#fff"}} to={"/contact"}>Вызвать мастера</Link></button>
@@ -101,9 +86,6 @@ const SectionContainer = () => {
               <div className="topButton">
                 <ul>
                   <li className="textBottom">Чиллеры</li>
-                  <p className="ppp">
-                    не работает? <br /> тогда свяжитесь с нами
-                  </p>
                 </ul>
                 <div className="bbb">
                   <button className="btn"><Link style={{color:"#fff"}} to={"/contact"}>Вызвать мастера</Link></button>
