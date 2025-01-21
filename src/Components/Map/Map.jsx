@@ -7,7 +7,7 @@ const Map = () => {
     <>
     <div className="mapContainer">
       <div className="mapRight" data-aos="fade-right">
-      <iframe src="https://yandex.com/map-widget/v1/?um=constructor%3A7de492f6c71b8a581a78a5efd958baaddea6759c378dda47a8d6cbbf53c66f20&amp;source=constructor" width="793" height="571" frameborder="0"></iframe>
+      <iframe src="https://yandex.com/map-widget/v1/?um=constructor%3Aa49dc788e7e71f55ab90339d5858d81986f4049942cbbb504d3beb16a26a89d2&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
       </div>
       <div className="mapLeft">
         <div className="mapText" data-aos="fade-left">

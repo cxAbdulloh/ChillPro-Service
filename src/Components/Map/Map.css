@@ -6,6 +6,7 @@ iframe {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     height: 500px;
+    width: 850px;
 }
 
 .mapDescription {
