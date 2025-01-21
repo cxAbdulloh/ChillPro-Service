@@ -11,9 +11,9 @@ const About = () => {
     <div className="aboutContainer">
         <div className="gridColumsTop">
             <div className="item">
-                <h4>Работаем ежедневно</h4>
+                <h4>Работаем без выходной</h4>
                 <br />
-                <p className='gridDescription'>Мы ремонтируем бытовую технику для Вас ежедневно: 24/7.</p>
+                <p className='gridDescription'>Мы ремонтируем бытовую технику для Работаем без выходной: 24/7.</p>
             </div>
             <hr className='aboutHr'/>
             <div className="item">
@@ -25,13 +25,13 @@ const About = () => {
             <div className="item">
                 <h4>Ремонт на дому</h4>
                 <br />
-                <p className='gridDescription'>Мы ремонтируем бытовую технику на дому. Не увозим в мастерскую.</p>
+                <p className='gridDescription'>Мы ремонтируем бытовую технику на дому.</p>
                 </div>
                 <hr className='aboutHr'/>
             <div className="item">
                 <h4>Гарантируем качество</h4>
                 <br />
-                <p className='gridDescription'>Оригинальные
+                <p className='gridDescription'>90% Оригинальные
                 запчасти</p>
             </div>
             <hr className='aboutHr'/>
