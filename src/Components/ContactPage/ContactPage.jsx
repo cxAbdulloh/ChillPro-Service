@@ -24,9 +24,7 @@ export const ContactPage= () => {
       );
   };
 
-  const handleClick = () => {
-    window.location.reload();
-  };
+ 
 
 
   return (
@@ -41,7 +39,7 @@ export const ContactPage= () => {
             <input type="text" placeholder='Ismingiz*' name='to_name'/>
             <input type="tel" placeholder='+998*' name='to_number'/>
         </div>
-        <button onClick={handleClick}>Yuborish</button>
+        <button>Yuborish</button>
       </form>
     </div>
     </>

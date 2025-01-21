@@ -4,7 +4,6 @@
     margin-top: 10rem;
 }
 .login-popup-container {
-    place-self: center;
     display: flex;
     gap: 25px;
     border: 1px solid #2887ff;
