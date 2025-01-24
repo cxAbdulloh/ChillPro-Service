@@ -18,11 +18,13 @@ import wash from './wash.png';
 import stablizator from './stablizator.png';
 
 import arrow from './arrow.png';
+import icon from './icon.png';
 
 export const assets = {
     time,
     phone, 
     home,
+    icon,
 
     instagram,
     telegram,
