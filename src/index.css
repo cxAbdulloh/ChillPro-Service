@@ -5,12 +5,14 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Montserrat", serif;
+  /* outline: 2px solid red; */
 }
 
 
-body {
+html, body {
   background-color: #fff;
   overflow-x: hidden;
+  width: 100%;
 }
 
 li {

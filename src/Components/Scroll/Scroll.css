@@ -1,0 +1,34 @@
+.scrollContainer {
+    margin-top: 5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 3rem;
+    overflow-x: scroll;
+    margin-bottom: 5rem;
+    background-color: #e1e2e27d;
+}
+.scrollContainer::-webkit-scrollbar {
+    display: none;
+}
+.scrollImage10 {
+    width: 80px;
+}
+.scrollText {
+    text-align: center;
+    color: #323232;
+    font-weight: 500;
+    font-size: 1.7rem;
+    margin-top: 5rem;
+}
+.scrollImage3 {
+    width: 80px;
+}
+.scrollImage5 {
+    width: 80px;
+}
+@media (max-width: 768px) {
+    .scrollText {
+        font-size: 1.4rem;
+    }
+}

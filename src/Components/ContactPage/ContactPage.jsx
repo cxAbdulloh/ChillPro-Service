@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { useNavigate } from 'react-router-dom';  // useNavigate import qilinadi
 import './ContactPage.css'
@@ -27,8 +27,16 @@ export const ContactPage = () => {
       );
   };
 
+ 
+  const [showAlert, setShowAlert] = useState(false);
+
+  const handleClick = () => {
+    setShowAlert(true);
+    setTimeout(() => setShowAlert(false), 3000);
+  };
+
   return (
-    <>
+    <div>
       <Navbar />
       <div className='login-popup'>
         <form className="login-popup-container" ref={form} onSubmit={sendEmail}>
@@ -37,12 +45,27 @@ export const ContactPage = () => {
           </div>
           <div className="login-popup-inputs">
             <input type="text" placeholder='Ismingiz*' name='to_name' />
-            <input type="tel" placeholder='+998*' name='to_number' />
+            <input type="tel" placeholder='+998*' name='to_number'/>
           </div>
-          <button type="submit">Yuborish</button>
+          <button type="submit" onClick={handleClick}>Yuborish</button>
         </form>
+        {showAlert && (
+        <div style={{
+          position: "fixed",
+          top: "20px",
+          left: "50%",
+          transform: "translateX(-50%)",
+          background: "#2887ff",
+          color: "white",
+          padding: "20px 40px",
+          borderRadius: "5px",
+          zIndex: "9999"
+        }}>
+          Yuborildi! Mutaxassis javobini kuting
+        </div>
+      )}
       </div>
-    </>
+    </div>
   );
 };
 

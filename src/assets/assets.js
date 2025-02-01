@@ -20,6 +20,18 @@ import stablizator from './stablizator.png';
 import arrow from './arrow.png';
 import icon from './icon.png';
 
+
+import photo_1 from './photo_1.png';
+import photo_2 from './photo_2.png';
+import photo_3 from './photo_3.png';
+import photo_4 from './photo_4.png';
+import photo_5 from './photo_5.png';
+import photo_6 from './photo_6.png';
+import photo_7 from './photo_7.png';
+import photo_8 from './photo_8.png';
+import photo_9 from './photo_9.png';
+import photo_10 from './photo_10.png';
+
 export const assets = {
     time,
     phone, 
@@ -41,4 +53,16 @@ export const assets = {
 
     navbar_icon,
     arrow,
+
+    photo_1,
+    photo_2,
+    photo_3,
+    photo_4,
+    photo_5,
+    photo_6,
+    photo_7,
+    photo_8,
+    photo_9,
+    photo_10,
+ 
  };
