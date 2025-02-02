@@ -6,7 +6,7 @@ const Scroll = () => {
   return (
     <>
       <div className="scrollText">
-        Мы ремонтируем и обслуживаем<span style={{color:"#2887ff"}}>все марки бытовой техники</span> 
+        Мы ремонтируем и обслуживаем<span style={{color:"#2887ff"}}> все марки бытовой техники</span> 
       </div>
       <div className="scrollContainer">
         
