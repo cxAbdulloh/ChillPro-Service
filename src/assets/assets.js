@@ -19,7 +19,7 @@ import stablizator from './stablizator.png';
 
 import arrow from './arrow.png';
 import icon from './icon.png';
-
+import phone_2 from './phonee.png';
 
 import photo_1 from './photo_1.png';
 import photo_2 from './photo_2.png';
@@ -65,4 +65,5 @@ export const assets = {
     photo_9,
     photo_10,
  
+    phone_2,
  };

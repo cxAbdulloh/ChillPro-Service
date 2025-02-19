@@ -9,9 +9,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 2px 9px #686868b4;
+  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  z-index: 1;
 }
 
 .callButton:hover {
@@ -29,12 +30,13 @@
   position: fixed;
   bottom: 90px;
   right: 20px;
-  background-color: white;
+  background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 10px 20px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
+  z-index: 1;
 }
 
 .callMenu p {

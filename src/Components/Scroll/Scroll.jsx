@@ -1,41 +1,27 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Scroll.css";
 import { assets } from "../../assets/assets";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Scroll = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, 
+      offset: 100,   
+    });
+  }, []);
   return (
     <>
-      <div className="scrollText">
-        Мы ремонтируем и обслуживаем<span style={{color:"#2887ff"}}> все марки бытовой техники</span> 
-      </div>
-      <div className="scrollContainer">
-        
-        <div className="item2">
-          <img src={assets.photo_2} alt="" className="scrollImage" />
+      <div className="phoneContainer">
+        <div className="phoneTop"  data-aos="fade-right">
+          <h1 className="phoneText">Не нашли свою <span style={{color:"black"}}>поломку?</span> </h1>
+          <p className="phoneDescription">Наши специалисты бесплатно вас проконсультируют <br /> и ответят на все вопросы <br /> по телефону:</p>
+          <button className="phoneBtn">+(998) 33 151 17 17</button>
         </div>
-        <div className="item3">
-          <img src={assets.photo_3} alt="" className="scrollImage3" />
-        </div>
-        <div className="item4">
-          <img src={assets.photo_4} alt="" className="scrollImage" />
-        </div>
-        <div className="item5">
-          <img src={assets.photo_5} alt="" className="scrollImage5" />
-        </div>
-        <div className="item6">
-          <img src={assets.photo_6} alt="" className="scrollImage" />
-        </div>
-        <div className="item7">
-          <img src={assets.photo_7} alt="" className="scrollImage" />
-        </div>
-        <div className="item8">
-          <img src={assets.photo_8} alt="" className="scrollImage" />
-        </div>
-        <div className="item9">
-          <img src={assets.photo_9} alt="" className="scrollImage" />
-        </div>
-        <div className="item10">
-          <img src={assets.photo_10} alt="" className="scrollImage10" />
+
+        <div className="phoneBottom" data-aos="fade-left">
+          <img src={assets.phone_2} alt="" className="phoneImage"/>
         </div>
       </div>
     </>

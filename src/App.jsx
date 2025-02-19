@@ -24,7 +24,7 @@ const App = () => {
 
   return (
     <>
-    {/* <div>
+    <div>
 
       <div className="callButton" onClick={toggleMenu}>
         <img src={assets.arrow} alt="Call" className="callIcon" />
@@ -32,13 +32,13 @@ const App = () => {
 
       {isMenuOpen && (
         <div className="callMenu">
-          <p>Telefon raqam:</p>
+          <p>Вызвать мастера</p>
           <a href="tel:+998331511717" className="callNumber">
             +998 33 151 17 17
           </a>
         </div>
       )}
-    </div> */}
+    </div>
 
   <Routes>
     <Route path="/" element={<Home/>} />
