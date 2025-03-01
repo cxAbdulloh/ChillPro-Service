@@ -44,7 +44,7 @@ export const ContactPage = () => {
             <h1 className='lll'>ChillProService</h1>
           </div>
           <div className="login-popup-inputs">
-            <input type="text" placeholder='Ismingiz*' name='to_name' />
+            <input type="text" placeholder='Имя*' name='to_name' />
             <input type="tel" placeholder='+998*' name='to_number'/>
           </div>
           <button type="submit" onClick={handleClick}>Yuborish</button>
@@ -61,7 +61,7 @@ export const ContactPage = () => {
           borderRadius: "5px",
           zIndex: "9999"
         }}>
-          Yuborildi! Mutaxassis javobini kuting
+          Отправил! Дождитесь ответа эксперта
         </div>
       )}
       </div>

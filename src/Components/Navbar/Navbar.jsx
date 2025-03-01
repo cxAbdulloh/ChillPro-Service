@@ -30,7 +30,7 @@ const Navbar = () => {
               <a href="https://t.me/chillprouz">
                 <img src={assets.telegram} alt="" className="socialIcon" />
               </a>
-              <img src={assets.google} alt="" className="socialIcon" />
+              
               <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png" alt="" className="socialIcon"/>
             </div>
             <hr className="navbarHr"/>

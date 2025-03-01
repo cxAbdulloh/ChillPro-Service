@@ -19,7 +19,7 @@ const Footer = () => {
           <div className="footer-social-icons">
             <a href="https://www.instagram.com/chillpro.uz"><img src={assets.instagram} alt="" /></a>
             <a href="https://t.me/chillprouz"><img src={assets.telegram} alt="" /></a>
-            <a href=""><img src={assets.google} alt="" /></a>
+            <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png" alt="" /></a>
           </div>
         </div>
         <div className="footer-content-center">
