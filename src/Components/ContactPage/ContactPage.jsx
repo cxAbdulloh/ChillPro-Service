@@ -47,7 +47,7 @@ export const ContactPage = () => {
             <input type="text" placeholder='Имя*' name='to_name' />
             <input type="tel" placeholder='+998*' name='to_number'/>
           </div>
-          <button type="submit" onClick={handleClick}>Yuborish</button>
+          <button type="submit" onClick={handleClick}>Отправить</button>
         </form>
         {showAlert && (
         <div style={{
