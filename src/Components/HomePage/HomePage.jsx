@@ -24,7 +24,8 @@ export const HomePage = () => {
     <section>
         <div className="container">
             <div className="leftContainer">
-                <div className="fadeIn"><h1 className='leftText'>Профессиональный ремонт <br /> техники в <span style={{color:"#2887ff", fontWeight:"bold"}}>Узбекистане</span></h1>
+                <div className="fadeIn"><h1 className='leftText'>Профессиональный ремонт <br /> техники
+                в <span style={{color:"#2887ff", fontWeight:"bold"}}>Узбекистане</span></h1>
                 <div className="homeContainer">
                 <div className="one">
                     <h2>1.</h2>
@@ -49,7 +50,7 @@ export const HomePage = () => {
                 <div className="homeBtn"><button onClick={handleCall} className='homeButton'>Вызвать мастера</button></div></div>
             </div>
             <div data-aos="fade-left" className="rightContainer">
-                <img src={assets.header} alt=""  className='homeImage'/>
+                <img src="https://clim-service.ru/wp-content/themes/eveXA%20clean%20theme/images/461.png" alt=""  className='homeImage'/>
             </div>
         </div>
     </section>
