@@ -32,7 +32,7 @@ export const ContactPage = () => {
 
   const handleClick = () => {
     setShowAlert(true);
-    setTimeout(() => setShowAlert(false), 3000);
+    setTimeout(() => setShowAlert(false), 4000);
   };
 
   return (
@@ -57,7 +57,7 @@ export const ContactPage = () => {
           transform: "translateX(-50%)",
           background: "#2887ff",
           color: "white",
-          padding: "20px 40px",
+          padding: "20px 4rem",
           borderRadius: "5px",
           zIndex: "9999"
         }}>

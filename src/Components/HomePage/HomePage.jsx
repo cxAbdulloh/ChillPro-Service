@@ -50,7 +50,7 @@ export const HomePage = () => {
                 <div className="homeBtn"><button onClick={handleCall} className='homeButton'>Вызвать мастера</button></div></div>
             </div>
             <div data-aos="fade-left" className="rightContainer">
-                <img src="https://clim-service.ru/wp-content/themes/eveXA%20clean%20theme/images/461.png" alt=""  className='homeImage'/>
+                <img src={assets.header} alt=""  className='homeImage'/>
             </div>
         </div>
     </section>
