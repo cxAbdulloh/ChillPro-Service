@@ -33,8 +33,8 @@ const App = () => {
       {isMenuOpen && (
         <div className="callMenu">
           <p>Вызвать мастера</p>
-          <a href="tel:+998331511717" className="callNumber">
-            +998 33 151 17 17
+          <a href="tel:+998935754224" className="callNumber">
+          +998 93 575 42 24
           </a>
         </div>
       )}

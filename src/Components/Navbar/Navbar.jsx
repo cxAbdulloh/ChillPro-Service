@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
    const handleCall = () => {
-          window.location.href = "tel:+998331511717";
+          window.location.href = "tel:+998935754224";
         };
 
   return (
@@ -36,7 +36,7 @@ const Navbar = () => {
             <hr className="navbarHr"/>
             <div className="navLeft">
               <button onClick={handleCall} className="navButton" style={{ fontWeight: "500" }}>
-                +998 33 151 17 17
+              +998935754224
               </button>
               <button
                 className="navButtonBottom"

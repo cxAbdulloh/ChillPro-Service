@@ -20,7 +20,7 @@ const Map = () => {
             <div className="url">
               <p className='mapDescription'>Номер телефона</p>
             <ul>
-                <li className='mapUrl'>+998 33 151 17 17</li>
+                <li className='mapUrl'>+998 93 575 42 24</li>
             </ul>  
             </div>
             <div className="url">

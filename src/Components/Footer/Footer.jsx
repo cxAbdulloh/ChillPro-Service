@@ -35,7 +35,7 @@ const Footer = () => {
         <div className="footer-content-right">
             <h2>Связаться с нами</h2>
             <ul>
-                <li>+998 (33) 157-17-17</li>
+                <li>+998 (93) 575-42-24</li>
                 <li>Contact@chillpro.uz</li>
             </ul>
         </div>
