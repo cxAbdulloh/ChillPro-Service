@@ -9,7 +9,7 @@ export const HomePage = () => {
 
 
         const handleCall = () => {
-          window.location.href = "tel:+998331511717";
+          window.location.href = "tel:+998935754224";
         };
 
         useEffect(() => {
