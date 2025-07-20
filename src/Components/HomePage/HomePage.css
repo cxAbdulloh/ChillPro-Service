@@ -21,6 +21,30 @@ section {
 .homeImage {
     height: 70vh;
 }
+.topHomeTextCall {
+    text-align: center;
+    font-size: 25px;
+    color: #2887ff;
+    font-weight: 700;
+    background-color: rgba(207, 206, 206, 0.279);
+    border-radius: 20px;
+    margin-bottom: 15px;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+    padding: 15px 10px;
+}
+.topHomeTextCall:hover {
+    transform: scale(1.05);
+}
+.topHomeTextCall {
+    display: none;
+}
+@media (max-width: 568px) {
+    .topHomeTextCall {
+        display: flex;
+        justify-content: center;
+    }
+}
 .homeButton {
     background-color: #2887ff;
     border: none;
