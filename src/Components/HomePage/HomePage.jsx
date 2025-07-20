@@ -25,7 +25,7 @@ export const HomePage = () => {
         <div className="container">
             <div className="leftContainer">
               <a href="https://t.me/@chillpro_uz"><h1 className='topHomeTextCall'>Вызвать мастера</h1></a>
-                <div className="fadeIn"><h1 className='leftText'>Профессиональный ремонт <br /> техники
+                <div className="slideInLeft"><h1 className='leftText'>Профессиональный ремонт <br /> техники
                 в <span style={{color:"#2887ff", fontWeight:"bold"}}>Узбекистане</span></h1>
                 <div className="homeContainer">
                 <div className="one">

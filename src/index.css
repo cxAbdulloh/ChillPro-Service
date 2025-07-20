@@ -24,3 +24,51 @@ a {
   color: #000;
 }
 
+/* Chapdan chiqish animatsiyasi */
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Animatsiyani qo‘llaymiz */
+.leftContainer,
+.rightContainer,
+.one,
+.leftText,
+.topHomeTextCall,
+.homeButton {
+  animation: slideInLeft 1s ease forwards;
+  opacity: 0; /* boshlang‘ich holatda yashirin */
+}
+
+/* Har bir elementga ozgina kechikish qo‘shamiz (ketma-ket chiqishi uchun) */
+.topHomeTextCall {
+  animation-delay: 0.2s;
+}
+.leftText {
+  animation-delay: 0.4s;
+}
+.one:nth-child(1) {
+  animation-delay: 0.6s;
+}
+.one:nth-child(2) {
+  animation-delay: 0.8s;
+}
+.one:nth-child(3) {
+  animation-delay: 1s;
+}
+.one:nth-child(4) {
+  animation-delay: 1.2s;
+}
+.homeButton {
+  animation-delay: 1.4s;
+}
+.rightContainer {
+  animation-delay: 1.6s;
+}
