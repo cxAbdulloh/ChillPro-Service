@@ -23,20 +23,23 @@ section {
 }
 .topHomeTextCall {
     text-align: center;
-    font-size: 25px;
+    font-size: 24px;
     color: #2887ff;
     font-weight: 700;
     background-color: rgba(207, 206, 206, 0.279);
-    border-radius: 20px;
+    border-radius: 17px;
     margin-bottom: 15px;
+    padding: 7px 12px;
     transition: 0.2s ease-in;
     cursor: pointer;
-    padding: 15px 10px;
 }
 .topHomeTextCall:hover {
     transform: scale(1.05);
 }
 .topHomeTextCall {
+    display: none;
+}
+.topContainerImageCall {
     display: none;
 }
 @media (max-width: 568px) {
@@ -90,10 +93,27 @@ h2 {
 .homeBtn {
     padding-top: 2rem;
 }
-.fadeIn {
-    animation: fadeIn 6s;
-}
 
+.topContainerTextCall {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.topContainerImageCall {
+    margin-bottom: 14px;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.topContainerImageCall:hover {
+    transform: scale(1.1);
+}
+@media (max-width: 568px) {
+    .topContainerImageCall {
+        display: flex;
+    }
+}
 
 @media (max-width: 800px) {
     .container {

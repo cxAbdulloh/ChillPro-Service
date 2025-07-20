@@ -42,6 +42,7 @@ a {
 .one,
 .leftText,
 .topHomeTextCall,
+.topContainerImageCall,
 .homeButton {
   animation: slideInLeft 1s ease forwards;
   opacity: 0; /* boshlang‘ich holatda yashirin */
